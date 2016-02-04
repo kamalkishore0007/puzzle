@@ -1,3 +1,4 @@
+<?php include_once 'defines.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +9,7 @@
 	<script src='http://connect.facebook.net/en_US/all.js'></script>
 
     <script>
-       var base_url='http://172.16.9.106/kamal-data/puzzle/';
+       var base_url='<?php echo base_url;?>/';
         const PUZZLE_DIFFICULTY = 4;
         const PUZZLE_HOVER_TINT = '#009900';
 
